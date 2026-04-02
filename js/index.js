@@ -9,12 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
   for (const entreno of datos) {
     const link = document.createElement("a");
     link.href = `entrenamiento/index.html?id=${entreno.id}`;
+    console.log("el tipo es:", entreno.tipo);
 
     //Agregar estilos a la card
     link.classList.add("day-card");
-    if (Number(entreno.id) % 2 !== 0) link.classList.add("disabled");
-    if (entreno.id === "21") link.classList.remove("disabled");
-    if (entreno.id === "22") link.classList.add("full");
+    if (entreno.tipo === "Descanso") link.classList.add("disabled");
+    /* if (entreno.id === "21") link.classList.remove("disabled"); */
+    if (entreno.tipo === "Carrera") link.classList.add("full");
 
     //Descripción de las Card
     const titulo = document.createElement("h2");
@@ -22,8 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
     //Span
     const descripcion = document.createElement("span");
     descripcion.textContent = entreno.tipo === "Descanso" ? "Descanso" : "Entreno";
-    if (entreno.id === "21") descripcion.textContent = "Caminata";
-    if (entreno.id === "22") descripcion.textContent = " 🏁🚀🎯 Competencia 🏆🚩🏁";
+    /* if (entreno.id === "21") descripcion.textContent = "Caminata"; */
+    if (entreno.tipo === "Carrera") descripcion.textContent = " 🏁🚀🎯 Competencia 🏆🚩🏁";
 
     //Agrego al Link
     link.appendChild(titulo);

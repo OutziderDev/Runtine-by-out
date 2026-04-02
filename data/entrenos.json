@@ -1,102 +1,300 @@
 [
   {
-    "id": "14",
-    "fecha": "14 de marzo",
-    "tipo": "Rodaje suave",
-    "distancia": "3.5 - 4 km",
-    "ritmo": "8:05 - 8:20",
-    "objetivo": ["Soltar las piernas", "Checkear rodilla", "Mantener cero fatiga"],
-    "notas": "Respiración nasal relajada."
+    "id": "1",
+    "fecha": "1 de abril",
+    "tipo": "Rodaje controlado",
+    "distancia": "4 km",
+    "ritmo": "7:30 - 7:45",
+    "objetivo": ["Retomar ritmo post descanso", "Sensaciones controladas"],
+    "notas": "Sin forzar. Respiración nasal."
   },
   {
-    "id": "15",
-    "fecha": "15 de marzo",
+    "id": "2",
+    "fecha": "2 de abril",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descansar los musculos, Hidratarse bien, Dormir temprano."
+    "notas": "Hidratación y descanso."
   },
   {
-    "id": "16",
-    "fecha": "16 de marzo",
-    "tipo": "Ritmo de carrera",
+    "id": "3",
+    "fecha": "3 de abril",
+    "tipo": "Long run",
+    "distancia": "5 km",
+    "ritmo": "7:50 - 8:10",
+    "objetivo": ["Sumar volumen", "Base aeróbica"],
+    "notas": "Ritmo muy cómodo."
+  },
+  {
+    "id": "4",
+    "fecha": "4 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "5",
+    "fecha": "5 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+
+  {
+    "id": "6",
+    "fecha": "6 de abril",
+    "tipo": "Progresión",
     "distancia": "4 km",
     "ritmo_km": [
-      { "km": 1, "ritmo": "8:10" },
-      { "km": 2, "ritmo": "7:55" },
-      { "km": 3, "ritmo": "7:50" },
-      { "km": 4, "ritmo": "7:45" }
+      { "km": 1, "ritmo": "7:50" },
+      { "km": 2, "ritmo": "7:40" },
+      { "km": 3, "ritmo": "7:30" },
+      { "km": 4, "ritmo": "7:20" }
     ],
-    "objetivo": ["Acostumbrar al cuerpo al ritmo de carrera"],
+    "objetivo": ["Mejorar ritmo", "Control progresivo"],
     "notas": "Sin sprint final."
   },
   {
-    "id": "17",
-    "fecha": "17 de marzo",
+    "id": "7",
+    "fecha": "7 de abril",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": ""
+    "notas": "Recuperación."
+  },
+  {
+    "id": "8",
+    "fecha": "8 de abril",
+    "tipo": "Rodaje suave",
+    "distancia": "4 - 4.5 km",
+    "ritmo": "7:45 - 8:05",
+    "objetivo": ["Base aeróbica", "Relajar piernas"],
+    "notas": "Debe sentirse fácil."
+  },
+  {
+    "id": "9",
+    "fecha": "9 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "10",
+    "fecha": "10 de abril",
+    "tipo": "Long run",
+    "distancia": "5.5 - 6 km",
+    "ritmo": "7:50 - 8:10",
+    "objetivo": ["Aumentar resistencia"],
+    "notas": "Muy cómodo."
+  },
+
+  {
+    "id": "11",
+    "fecha": "11 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "12",
+    "fecha": "12 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "13",
+    "fecha": "13 de abril",
+    "tipo": "Progresión",
+    "distancia": "4.5 km",
+    "ritmo_km": [
+      { "km": 1, "ritmo": "8:00" },
+      { "km": 2, "ritmo": "7:45" },
+      { "km": 3, "ritmo": "7:35" },
+      { "km": 4, "ritmo": "7:25" },
+      { "km": 5, "ritmo": "7:15" }
+    ],
+    "objetivo": ["Mejorar control de ritmo"],
+    "notas": "Progresión constante."
+  },
+  {
+    "id": "14",
+    "fecha": "14 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Recuperación."
+  },
+  {
+    "id": "15",
+    "fecha": "15 de abril",
+    "tipo": "Rodaje suave",
+    "distancia": "4.5 km",
+    "ritmo": "7:45 - 8:05",
+    "objetivo": ["Mantener base"],
+    "notas": "Sin fatiga."
+  },
+
+  {
+    "id": "16",
+    "fecha": "16 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "17",
+    "fecha": "17 de abril",
+    "tipo": "Long run",
+    "distancia": "6 - 6.5 km",
+    "ritmo": "7:45 - 8:05",
+    "objetivo": ["Resistencia"],
+    "notas": "Control total."
   },
   {
     "id": "18",
-    "fecha": "18 de marzo",
-    "tipo": "Rodaje aeróbico",
-    "distancia": "4.5 km (máximo)",
-    "ritmo": "8:10 - 8:30",
-    "objetivo": ["Mantener volumen", "Recuperar", "Mantener confianza"],
-    "notas": "Este entrenamiento debe sentirse muy fácil."
-  },
-  {
-    "id": "19",
-    "fecha": "19 de marzo",
+    "fecha": "18 de abril",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": ""
+    "notas": "Descanso total."
+  },
+  {
+    "id": "19",
+    "fecha": "19 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
   },
   {
     "id": "20",
-    "fecha": "20 de marzo",
-    "tipo": "Activación pre-competencia",
-    "distancia": "3 km",
+    "fecha": "20 de abril",
+    "tipo": "Progresión",
+    "distancia": "5 km",
     "ritmo_km": [
-      { "km": 1, "ritmo": "8:20" },
-      { "km": 2, "ritmo": "8:00" },
-      { "km": 3, "ritmo": "7:45" }
+      { "km": 1, "ritmo": "7:50" },
+      { "km": 2, "ritmo": "7:35" },
+      { "km": 3, "ritmo": "7:25" },
+      { "km": 4, "ritmo": "7:15" },
+      { "km": 5, "ritmo": "7:05" }
     ],
-    "objetivo": ["Despertar piernas", "Recordar ritmo", "Cero fatiga"],
-    "notas": "Debe terminar con sensación de 'me quedé con ganas de más'."
+    "objetivo": ["Acercarse a sub 7"],
+    "notas": "Sin sprint final."
   },
+
   {
     "id": "21",
-    "fecha": "21 de marzo",
-    "tipo": "Activación con compañeros",
-    "distancia": "3 km (máximo)",
-    "ritmo": "8:30 - 9:00",
-    "objetivo": ["Trote extremadamente fácil", "Movilidad", "Relajar nervios", "Dormir bien"],
-    "notas": "Debe sentirse ridículamente fácil."
+    "fecha": "21 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Recuperación."
   },
   {
     "id": "22",
-    "fecha": "22 de marzo",
-    "tipo": "Día de carrera",
+    "fecha": "22 de abril",
+    "tipo": "Rodaje controlado",
+    "distancia": "5 km",
+    "ritmo": "7:40 - 8:00",
+    "objetivo": ["Mantener ritmo"],
+    "notas": "Relajado."
+  },
+  {
+    "id": "23",
+    "fecha": "23 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "24",
+    "fecha": "24 de abril",
+    "tipo": "Long run",
+    "distancia": "6.5 - 7 km",
+    "ritmo": "7:45 - 8:05",
+    "objetivo": ["Mayor volumen"],
+    "notas": "Muy cómodo."
+  },
+
+  {
+    "id": "25",
+    "fecha": "25 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "26",
+    "fecha": "26 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "27",
+    "fecha": "27 de abril",
+    "tipo": "Progresión",
     "distancia": "5 km",
     "ritmo_km": [
-      { "km": 1, "ritmo": "8:10" },
-      { "km": 2, "ritmo": "7:50" },
-      { "km": 3, "ritmo": "7:45" },
-      { "km": 4, "ritmo": "7:45" },
-      { "km": 5, "ritmo": "7:30" }
+      { "km": 1, "ritmo": "7:45" },
+      { "km": 2, "ritmo": "7:30" },
+      { "km": 3, "ritmo": "7:20" },
+      { "km": 4, "ritmo": "7:10" },
+      { "km": 5, "ritmo": "7:00" }
     ],
-    "objetivo": [
-      "Ejecutar el plan de carrera",
-      "Disfrutar la experiencia",
-      "Aprender para futuras carreras"
-    ],
-    "notas": "¡A Divertirse y Celebrar! 🍻"
+    "objetivo": ["Consolidar ritmo alto"],
+    "notas": "Control total."
+  },
+  {
+    "id": "28",
+    "fecha": "28 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Recuperación."
+  },
+  {
+    "id": "29",
+    "fecha": "29 de abril",
+    "tipo": "Rodaje suave",
+    "distancia": "4 - 5 km",
+    "ritmo": "7:40 - 8:00",
+    "objetivo": ["Cerrar mes suave"],
+    "notas": "Sin fatiga."
+  },
+  {
+    "id": "30",
+    "fecha": "30 de abril",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Fin de ciclo."
   }
 ]

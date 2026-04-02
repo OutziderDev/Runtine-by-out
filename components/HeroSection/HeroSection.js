@@ -9,7 +9,7 @@ class HeroSection extends HTMLElement {
     this.shadowRoot.innerHTML = /*html */ `
       <section class="hero">
         <h1>📅Plan final para Carrera🎯</h1>
-        <p>Summer Vibes</p>
+        <p> Mantenimiento </p>
       </section>
     `;
   }
