@@ -1,0 +1,102 @@
+[
+  {
+    "id": "14",
+    "fecha": "14 de marzo",
+    "tipo": "Rodaje suave",
+    "distancia": "3.5 - 4 km",
+    "ritmo": "8:05 - 8:20",
+    "objetivo": ["Soltar las piernas", "Checkear rodilla", "Mantener cero fatiga"],
+    "notas": "Respiración nasal relajada."
+  },
+  {
+    "id": "15",
+    "fecha": "15 de marzo",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descansar los musculos, Hidratarse bien, Dormir temprano."
+  },
+  {
+    "id": "16",
+    "fecha": "16 de marzo",
+    "tipo": "Ritmo de carrera",
+    "distancia": "4 km",
+    "ritmo_km": [
+      { "km": 1, "ritmo": "8:10" },
+      { "km": 2, "ritmo": "7:55" },
+      { "km": 3, "ritmo": "7:50" },
+      { "km": 4, "ritmo": "7:45" }
+    ],
+    "objetivo": ["Acostumbrar al cuerpo al ritmo de carrera"],
+    "notas": "Sin sprint final."
+  },
+  {
+    "id": "17",
+    "fecha": "17 de marzo",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": ""
+  },
+  {
+    "id": "18",
+    "fecha": "18 de marzo",
+    "tipo": "Rodaje aeróbico",
+    "distancia": "4.5 km (máximo)",
+    "ritmo": "8:10 - 8:30",
+    "objetivo": ["Mantener volumen", "Recuperar", "Mantener confianza"],
+    "notas": "Este entrenamiento debe sentirse muy fácil."
+  },
+  {
+    "id": "19",
+    "fecha": "19 de marzo",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": ""
+  },
+  {
+    "id": "20",
+    "fecha": "20 de marzo",
+    "tipo": "Activación pre-competencia",
+    "distancia": "3 km",
+    "ritmo_km": [
+      { "km": 1, "ritmo": "8:20" },
+      { "km": 2, "ritmo": "8:00" },
+      { "km": 3, "ritmo": "7:45" }
+    ],
+    "objetivo": ["Despertar piernas", "Recordar ritmo", "Cero fatiga"],
+    "notas": "Debe terminar con sensación de 'me quedé con ganas de más'."
+  },
+  {
+    "id": "21",
+    "fecha": "21 de marzo",
+    "tipo": "Activación con compañeros",
+    "distancia": "3 km (máximo)",
+    "ritmo": "8:30 - 9:00",
+    "objetivo": ["Trote extremadamente fácil", "Movilidad", "Relajar nervios", "Dormir bien"],
+    "notas": "Debe sentirse ridículamente fácil."
+  },
+  {
+    "id": "22",
+    "fecha": "22 de marzo",
+    "tipo": "Día de carrera",
+    "distancia": "5 km",
+    "ritmo_km": [
+      { "km": 1, "ritmo": "8:10" },
+      { "km": 2, "ritmo": "7:50" },
+      { "km": 3, "ritmo": "7:45" },
+      { "km": 4, "ritmo": "7:45" },
+      { "km": 5, "ritmo": "7:30" }
+    ],
+    "objetivo": [
+      "Ejecutar el plan de carrera",
+      "Disfrutar la experiencia",
+      "Aprender para futuras carreras"
+    ],
+    "notas": "¡A Divertirse y Celebrar! 🍻"
+  }
+]
