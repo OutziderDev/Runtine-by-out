@@ -3,6 +3,12 @@ import "../components/tab-system/tab-system.js";
 import "../components/HeroSection/HeroSection.js";
 import datos from "../data/entrenos.json" with { type: "json" };
 
+const today = new Date().getDate();
+
+function isPastDay(entrenoId) {
+  return parseInt(entrenoId) < today;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const navbar = document.querySelector(".calendar");
 
@@ -16,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (entreno.tipo === "Descanso") link.classList.add("disabled");
     /* if (entreno.id === "21") link.classList.remove("disabled"); */
     if (entreno.tipo === "Carrera") link.classList.add("full");
+    if (isPastDay(entreno.id)) link.classList.add("past");
 
     //Descripción de las Card
     const titulo = document.createElement("h2");
