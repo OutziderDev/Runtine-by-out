@@ -10,6 +10,9 @@
   --color-success: oklch(54.475% 0.17809 142.968);
   --color-success-muted: oklch(54.475% 0.17809 142.968 / 0.1);
 
+  --color-past: oklch(75% 0.1 220);
+  --color-past-muted: oklch(75% 0.1 220 / 0.2);
+
   scroll-behavior: smooth;
 }
 
@@ -69,6 +72,13 @@ body {
     opacity: 0.5;
     border: 1px solid var(--color-muted);
     background-color: #ccc1;
+  }
+
+  & > .past {
+    border: 2px solid var(--color-past);
+    background-color: var(--color-past-muted);
+    /* pointer-events: none; */
+    opacity: 0.7;
   }
 
   & > .full {
