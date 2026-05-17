@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     /* if (entreno.id === "21") link.classList.remove("disabled"); */
     if (entreno.tipo === "Carrera") link.classList.add("full");
     if (isPastDay(entreno.id)) link.classList.add("past");
+    if (parseInt(entreno.id) === today) link.classList.add("current");
 
     //Descripción de las Card
     const titulo = document.createElement("h2");
