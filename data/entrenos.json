@@ -1,204 +1,153 @@
 [
   {
-    "id": "01",
-    "fecha": "01 de julio",
-    "tipo": "Rodaje suave",
-    "distancia": "3.5 km",
-    "ritmo": "8:15 - 8:35",
-    "objetivo": ["Retomar sensaciones", "Evitar recaídas", "Respiración nasal"],
-    "notas": "Primer entrenamiento tras el resfriado. Muy suave."
-  },
-  {
-    "id": "02",
-    "fecha": "02 de julio",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Hidratarse y dormir bien."
-  },
-  {
     "id": "03",
-    "fecha": "03 de julio",
-    "tipo": "Rodaje controlado",
-    "distancia": "4 km",
-    "ritmo": "8:05 - 8:25",
-    "objetivo": ["Volver a acumular km", "Controlar respiración", "Evitar fatiga"],
-    "notas": "No acelerar aunque te sientas fuerte."
+    "fecha": "03 de agosto",
+    "tipo": "Rodaje suave",
+    "distancia": "3 km",
+    "ritmo": "8:20 - 8:40",
+    "objetivo": ["Retomar la carrera", "Respiración nasal", "Sin fatiga"],
+    "notas": "No acelerar aunque te sientas bien."
   },
   {
     "id": "04",
-    "fecha": "04 de julio",
+    "fecha": "04 de agosto",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Reposo total."
+    "notas": "Movilidad e hidratación."
   },
   {
     "id": "05",
-    "fecha": "05 de julio",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Fin de semana libre."
+    "fecha": "05 de agosto",
+    "tipo": "Rodaje constante",
+    "distancia": "3.5 km",
+    "ritmo": "8:10 - 8:25",
+    "objetivo": ["Volver a sentir continuidad"],
+    "notas": "Todo en zona aeróbica."
   },
   {
     "id": "06",
-    "fecha": "06 de julio",
+    "fecha": "06 de agosto",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Fin de semana libre."
+    "notas": "Reposo."
   },
   {
     "id": "07",
-    "fecha": "07 de julio",
+    "fecha": "07 de agosto",
+    "tipo": "Long Run",
+    "distancia": "4 km",
+    "ritmo": "8:20 - 8:35",
+    "objetivo": ["Acumular kilómetros"],
+    "notas": "Muy cómodo."
+  },
+  {
+    "id": "08",
+    "fecha": "08 de agosto",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "09",
+    "fecha": "09 de agosto",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Dormir bien."
+  },
+  {
+    "id": "10",
+    "fecha": "10 de agosto",
     "tipo": "Ritmo progresivo",
     "distancia": "4 km",
     "ritmo_km": [
       { "km": 1, "ritmo": "8:20" },
-      { "km": 2, "ritmo": "8:05" },
-      { "km": 3, "ritmo": "7:55" },
-      { "km": 4, "ritmo": "7:45" }
+      { "km": 2, "ritmo": "8:10" },
+      { "km": 3, "ritmo": "8:00" },
+      { "km": 4, "ritmo": "7:50" }
     ],
-    "objetivo": ["Despertar ritmo", "Trabajar control", "Mantener técnica"],
-    "notas": "Sin sprint final."
-  },
-  {
-    "id": "08",
-    "fecha": "08 de julio",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Recuperar piernas."
-  },
-  {
-    "id": "09",
-    "fecha": "09 de julio",
-    "tipo": "Rodaje aeróbico",
-    "distancia": "4.5 km",
-    "ritmo": "7:55 - 8:15",
-    "objetivo": ["Construir base", "Respiración nasal", "Economía de carrera"],
-    "notas": "Debe sentirse cómodo."
-  },
-  {
-    "id": "10",
-    "fecha": "10 de julio",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Descanso."
+    "objetivo": ["Volver a controlar ritmos"],
+    "notas": "Sin sprint."
   },
   {
     "id": "11",
-    "fecha": "11 de julio",
+    "fecha": "11 de agosto",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Fin de semana libre."
+    "notas": "Reposo."
   },
   {
     "id": "12",
-    "fecha": "12 de julio",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Fin de semana libre."
+    "fecha": "12 de agosto",
+    "tipo": "Rodaje constante",
+    "distancia": "4 km",
+    "ritmo": "8:00 - 8:10",
+    "objetivo": ["Economía de carrera"],
+    "notas": "Respiración nasal."
   },
   {
     "id": "13",
-    "fecha": "13 de julio",
-    "tipo": "Ritmo progresivo",
-    "distancia": "5 km",
-    "ritmo_km": [
-      { "km": 1, "ritmo": "8:15" },
-      { "km": 2, "ritmo": "8:00" },
-      { "km": 3, "ritmo": "7:50" },
-      { "km": 4, "ritmo": "7:40" },
-      { "km": 5, "ritmo": "7:30" }
-    ],
-    "objetivo": ["Recuperar ritmo de competencia", "Mejorar resistencia"],
-    "notas": "Solo bajar ritmo si sigues cómodo."
+    "fecha": "13 de agosto",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Movilidad."
   },
   {
     "id": "14",
-    "fecha": "14 de julio",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Reposo."
+    "fecha": "14 de agosto",
+    "tipo": "Long Run",
+    "distancia": "4.8 km",
+    "ritmo": "8:10 - 8:25",
+    "objetivo": ["Acumular volumen"],
+    "notas": "Sin mirar demasiado el reloj."
   },
   {
     "id": "15",
-    "fecha": "15 de julio",
-    "tipo": "Rodaje suave",
-    "distancia": "5 km",
-    "ritmo": "8:00 - 8:20",
-    "objetivo": ["Acumular km", "Evitar sobrecarga"],
-    "notas": "Ritmo constante y relajado."
+    "fecha": "15 de agosto",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
   },
   {
     "id": "16",
-    "fecha": "16 de julio",
+    "fecha": "16 de agosto",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso."
+    "notas": "Hidratación."
   },
   {
     "id": "17",
-    "fecha": "17 de julio",
-    "tipo": "Long run",
-    "distancia": "6 km",
-    "ritmo": "8:05 - 8:30",
-    "objetivo": ["Preparar los 8k", "Construir resistencia mental y física"],
-    "notas": "El objetivo es terminar entero."
+    "fecha": "17 de agosto",
+    "tipo": "Ritmo progresivo",
+    "distancia": "4.5 km",
+    "ritmo_km": [
+      { "km": 1, "ritmo": "8:10" },
+      { "km": 2, "ritmo": "8:00" },
+      { "km": 3, "ritmo": "7:55" },
+      { "km": 4, "ritmo": "7:45" },
+      { "km": 4.5, "ritmo": "7:40" }
+    ],
+    "objetivo": ["Recordar ritmo objetivo"],
+    "notas": "Siempre cómodo."
   },
   {
     "id": "18",
-    "fecha": "18 de julio",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Fin de semana libre."
-  },
-  {
-    "id": "19",
-    "fecha": "19 de julio",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Fin de semana libre."
-  },
-  {
-    "id": "20",
-    "fecha": "20 de julio",
-    "tipo": "Ritmo progresivo",
-    "distancia": "5 km",
-    "ritmo_km": [
-      { "km": 1, "ritmo": "8:10" },
-      { "km": 2, "ritmo": "7:55" },
-      { "km": 3, "ritmo": "7:45" },
-      { "km": 4, "ritmo": "7:35" },
-      { "km": 5, "ritmo": "7:25" }
-    ],
-    "objetivo": ["Acercarse al ritmo objetivo", "Controlar respiración"],
-    "notas": "No convertirlo en sprint."
-  },
-  {
-    "id": "21",
-    "fecha": "21 de julio",
+    "fecha": "18 de agosto",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
@@ -206,87 +155,86 @@
     "notas": "Reposo."
   },
   {
+    "id": "19",
+    "fecha": "19 de agosto",
+    "tipo": "Rodaje constante",
+    "distancia": "4.5 km",
+    "ritmo": "7:55 - 8:05",
+    "objetivo": ["Mantener ritmo uniforme"],
+    "notas": "Sin fatiga."
+  },
+  {
+    "id": "20",
+    "fecha": "20 de agosto",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Movilidad."
+  },
+  {
+    "id": "21",
+    "fecha": "21 de agosto",
+    "tipo": "Long Run",
+    "distancia": "5.5 km",
+    "ritmo": "8:00 - 8:15",
+    "objetivo": ["Primer rodaje largo"],
+    "notas": "Sin forzar."
+  },
+  {
     "id": "22",
-    "fecha": "22 de julio",
-    "tipo": "Rodaje aeróbico",
-    "distancia": "5 km",
-    "ritmo": "7:50 - 8:05",
-    "objetivo": ["Consolidar base", "Mantener eficiencia"],
-    "notas": "Respiración nasal dominante."
+    "fecha": "22 de agosto",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso."
   },
   {
     "id": "23",
-    "fecha": "23 de julio",
+    "fecha": "23 de agosto",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso."
+    "notas": "Dormir bien."
   },
   {
     "id": "24",
-    "fecha": "24 de julio",
-    "tipo": "Long run",
-    "distancia": "7 km",
-    "ritmo": "8:00 - 8:20",
-    "objetivo": ["Preparación específica 8k", "Acostumbrar piernas"],
-    "notas": "No importa el ritmo, importa terminar sólido."
+    "fecha": "24 de agosto",
+    "tipo": "Ritmo progresivo",
+    "distancia": "5 km",
+    "ritmo_km": [
+      { "km": 1, "ritmo": "8:05" },
+      { "km": 2, "ritmo": "7:58" },
+      { "km": 3, "ritmo": "7:52" },
+      { "km": 4, "ritmo": "7:45" },
+      { "km": 5, "ritmo": "7:40" }
+    ],
+    "objetivo": ["Preparar los 5 km"],
+    "notas": "Sin sprint."
   },
   {
     "id": "25",
-    "fecha": "25 de julio",
+    "fecha": "25 de agosto",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Fin de semana libre."
+    "notas": "Reposo."
   },
   {
     "id": "26",
-    "fecha": "26 de julio",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Fin de semana libre."
+    "fecha": "26 de agosto",
+    "tipo": "Rodaje constante",
+    "distancia": "5 km",
+    "ritmo": "7:50 - 8:00",
+    "objetivo": ["Consolidar resistencia"],
+    "notas": "Todo relajado."
   },
   {
     "id": "27",
-    "fecha": "27 de julio",
-    "tipo": "Ritmo de competencia",
-    "distancia": "6 km",
-    "ritmo_km": [
-      { "km": 1, "ritmo": "8:00" },
-      { "km": 2, "ritmo": "7:50" },
-      { "km": 3, "ritmo": "7:45" },
-      { "km": 4, "ritmo": "7:40" },
-      { "km": 5, "ritmo": "7:35" },
-      { "km": 6, "ritmo": "7:30" }
-    ],
-    "objetivo": ["Simular carrera", "Fortalecer confianza"],
-    "notas": "Mantener control y técnica."
-  },
-  {
-    "id": "28",
-    "fecha": "28 de julio",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Recuperar."
-  },
-  {
-    "id": "29",
-    "fecha": "29 de julio",
-    "tipo": "Rodaje suave",
-    "distancia": "4 km",
-    "ritmo": "8:00 - 8:20",
-    "objetivo": ["Soltar piernas", "Evitar fatiga acumulada"],
-    "notas": "Muy relajado."
-  },
-  {
-    "id": "30",
-    "fecha": "30 de julio",
+    "fecha": "27 de agosto",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
@@ -294,12 +242,39 @@
     "notas": "Descanso."
   },
   {
+    "id": "28",
+    "fecha": "28 de agosto",
+    "tipo": "Long Run",
+    "distancia": "6 km",
+    "ritmo": "7:55 - 8:10",
+    "objetivo": ["Construir fondo para septiembre"],
+    "notas": "Si aparece dolor >3/10, detener."
+  },
+  {
+    "id": "29",
+    "fecha": "29 de agosto",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "30",
+    "fecha": "30 de agosto",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Preparar última sesión."
+  },
+  {
     "id": "31",
-    "fecha": "31 de julio",
-    "tipo": "Long run",
-    "distancia": "8 km",
-    "ritmo": "7:50 - 8:10",
-    "objetivo": ["Completar distancia objetivo", "Cerrar el mes fuerte"],
-    "notas": "La meta es terminar estable, no rápido."
+    "fecha": "31 de agosto",
+    "tipo": "Evaluación",
+    "distancia": "5 km",
+    "ritmo": "7:45 - 7:50",
+    "objetivo": ["Completar 5 km continuos", "Respiración controlada", "Llegar con margen"],
+    "notas": "No buscar récord; comprobar que vuelves a tu nivel."
   }
 ]
