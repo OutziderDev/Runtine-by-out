@@ -1,5 +1,6 @@
 import datos from "../data/entrenos.json" with { type: "json" };
 import "../components/HeroSection/HeroSection.js";
+import { setupReportModal } from "../modules/report-modal.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const url = new URL(window.location.href);
@@ -18,6 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   handleObjetivos(dato.objetivo);
   handleNotas(dato.notas);
+
+  setupReportModal(dato);
 });
 
 function handleTitulo(fecha, tipo) {
