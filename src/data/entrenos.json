@@ -1,5 +1,23 @@
 [
   {
+    "id": "01",
+    "fecha": "01 de agosto",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Movilidad e hidratación."
+  },
+  {
+    "id": "02",
+    "fecha": "02 de agosto",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Movilidad e hidratación."
+  },
+  {
     "id": "03",
     "fecha": "03 de agosto",
     "tipo": "Rodaje suave",
