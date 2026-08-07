@@ -1,5 +1,6 @@
 import datos from "../data/entrenos.json" with { type: "json" };
 import "../components/HeroSection/HeroSection.js";
+import { setupReportModal } from "../modules/report-modal.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const url = new URL(window.location.href);
@@ -18,7 +19,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
   handleObjetivos(dato.objetivo);
   handleNotas(dato.notas);
+  hideEmptyPanels();
+
+  setupReportModal(dato);
 });
+
+function hideEmptyPanels() {
+  const ritmoUnico = document.querySelector("#ritmo-unico");
+  const ritmoValor = ritmoUnico.textContent.trim();
+  if (!ritmoValor || ritmoValor === "0") {
+    document.querySelector("#stat-ritmo").hidden = true;
+  }
+
+  if (!document.querySelector("#ritmo-list").children.length) {
+    document.querySelector("#panel-ritmo-list").hidden = true;
+  }
+
+  if (!document.querySelector("#objetivo-list").children.length) {
+    document.querySelector("#panel-objetivo").hidden = true;
+  }
+}
 
 function handleTitulo(fecha, tipo) {
   const fechaSpan = document.querySelector("#fecha");

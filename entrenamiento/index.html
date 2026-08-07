@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,36 +13,42 @@
 
   <section class="info-detail">
 
-    <header class="info-titulo">
-      🚩
-      <span id="fecha" class="fecha-subtitulo"></span> |
-      <span id="subtitulo" class="subtitulo"></span>
+    <header class="info-header">
+      <div class="info-text">
+        <span id="subtitulo" class="info-tipo"></span>
+        <span id="fecha" class="info-fecha"></span>
+      </div>
     </header>
 
-    <section class="distancia">
-      <h3>Distancia:</h3>
-      <span id="distancia">4km</span>
-    </section>
+    <div class="stats">
+      <article class="stat-card">
+        <span class="stat-label">Distancia</span>
+        <span id="distancia" class="stat-value">4km</span>
+      </article>
+      <article class="stat-card" id="stat-ritmo">
+        <span class="stat-label">Ritmo</span>
+        <span id="ritmo-unico" class="stat-value"></span>
+      </article>
+    </div>
 
-    <section class="ritmo">
-      <h3>📈 Ritmo:</h3>
-      <p id="ritmo-unico"></p>
+    <section class="panel" id="panel-ritmo-list">
+      <h3>Desglose por km</h3>
       <ul id="ritmo-list">
 
       </ul>
     </section>
 
-    <section class="objetivo">
-      <h3>📌 Objetivos:</h3>
+    <section class="panel" id="panel-objetivo">
+      <h3>Objetivos</h3>
       <ul id="objetivo-list">
 
       </ul>
     </section>
 
-    <footer class="notas">
-      <h3>📝 Notas:</h3>
+    <section class="panel" id="panel-notas">
+      <h3>Notas</h3>
       <p id="nota-desc">Este es un entrenamiento de recuperación.</p>
-    </footer>
+    </section>
 
   </section>
 

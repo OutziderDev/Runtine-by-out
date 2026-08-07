@@ -1,6 +1,7 @@
 import "../components/app-root.js";
 import "../components/tab-system/tab-system.js";
 import "../components/HeroSection/HeroSection.js";
+import { addDoneToggles } from "../modules/toggle-done.js";
 import datos from "../data/entrenos.json" with { type: "json" };
 
 const today = new Date().getDate();
@@ -15,12 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
   for (const entreno of datos) {
     const link = document.createElement("a");
     link.href = `entrenamiento/index.html?id=${entreno.id}`;
-    console.log("el tipo es:", entreno.tipo);
 
     //Agregar estilos a la card
     link.classList.add("day-card");
     if (entreno.tipo === "Descanso") link.classList.add("disabled");
-    /* if (entreno.id === "21") link.classList.remove("disabled"); */
     if (entreno.tipo === "Carrera") link.classList.add("full");
     if (isPastDay(entreno.id)) link.classList.add("past");
     if (parseInt(entreno.id) === today) link.classList.add("current");
@@ -40,4 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     navbar.appendChild(link);
   }
+
+  addDoneToggles();
 });
