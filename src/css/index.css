@@ -174,11 +174,6 @@ body {
   transform: translateX(1.35rem);
 }
 
-.calendar > .day-card.disabled .done-toggle {
-  pointer-events: auto;
-  opacity: 1;
-}
-
 .info-detail {
   width: 30%;
   margin: 2rem auto;

@@ -19,7 +19,7 @@ function saveDoneDays(doneDays) {
 export function addDoneToggles() {
   const doneDays = loadDoneDays();
 
-  document.querySelectorAll(".calendar .day-card").forEach((card) => {
+  document.querySelectorAll(".calendar .day-card:not(.disabled)").forEach((card) => {
     const id = card.querySelector("h2").textContent;
 
     const checkbox = document.createElement("input");
