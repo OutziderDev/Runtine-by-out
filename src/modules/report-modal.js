@@ -4,21 +4,21 @@
 const styles = new CSSStyleSheet();
 styles.replaceSync(`
   .report-btn {
-    align-self: center;
-    padding: 0.6rem 1.6rem;
-    border: 1px solid rgb(255 255 255 / 0.2);
-    border-radius: 2px;
-    background: rgb(255 255 255 / 0.04);
+    flex-shrink: 0;
+    padding: 0.45rem 0.95rem;
+    border: 1px solid rgb(255 255 255 / 0.16);
+    border-radius: 999px;
+    background: rgb(255 255 255 / 0.05);
     color: var(--color-primario);
-    font-size: 0.8rem;
-    letter-spacing: 0.14em;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     cursor: pointer;
     transition: border-color 0.2s, background 0.2s, transform 0.2s;
   }
   .report-btn:hover {
     border-color: var(--color-warning);
-    background: rgb(255 255 255 / 0.08);
+    background: rgb(255 255 255 / 0.09);
     transform: translateY(-1px);
   }
 
@@ -321,7 +321,7 @@ export function setupReportModal(dato) {
     textContent: "📊 Rellenar datos",
   });
   button.addEventListener("click", () => dialog.showModal());
-  document.querySelector(".info-detail").append(button);
+  document.querySelector(".info-header").append(button);
 
   document.body.append(dialog);
 
