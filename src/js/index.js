@@ -41,4 +41,29 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   addDoneToggles();
+  setupHomeKicker();
+  setupTodayChip();
 });
+
+function setupHomeKicker() {
+  const mes = datos[0]?.fecha.match(/de\s+(.+)/)?.[1]?.trim();
+  const kickerText = mes
+    ? `${mes.charAt(0).toUpperCase()}${mes.slice(1)} · ${datos.length} días`
+    : "";
+  if (kickerText) {
+    const kicker = document.createElement("div");
+    kicker.className = "plan-kicker";
+    kicker.textContent = kickerText;
+    document.querySelector(".calendar")?.before(kicker);
+  }
+}
+
+function setupTodayChip() {
+  const currentCard = document.querySelector(".calendar .day-card.current");
+  if (currentCard && !currentCard.classList.contains("disabled")) {
+    const chip = document.createElement("span");
+    chip.className = "today-chip";
+    chip.textContent = "Hoy";
+    currentCard.append(chip);
+  }
+}
