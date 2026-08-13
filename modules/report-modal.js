@@ -27,96 +27,154 @@ styles.replaceSync(`
     width: min(1000px, 95vw);
     max-height: 90vh;
     padding: 0;
-    border: 1px solid var(--color-muted);
-    border-radius: 1rem;
-    background: var(--color-fondo);
+    border: 1px solid rgb(255 255 255 / 0.12);
+    border-radius: 1.2rem;
+    background:
+      linear-gradient(180deg, rgb(255 255 255 / 0.05), transparent 30%),
+      var(--color-fondo);
     color: var(--color-primario);
+    box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 0.55);
     overflow: hidden;
   }
   .report-dialog::backdrop {
-    background: rgb(0 0 0 / 0.7);
+    background: rgb(0 0 0 / 0.75);
+    backdrop-filter: blur(4px);
   }
 
   .report-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
-    border-bottom: 1px solid var(--color-muted);
+    gap: 1rem;
+    padding: 1.1rem 1.5rem;
+    border-bottom: 1px solid rgb(255 255 255 / 0.09);
   }
   .report-header h2 {
-    font-size: 1.2rem;
     margin: 0;
+    font-size: 0.78rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-warning);
+  }
+  .report-header .report-sub {
+    margin: 0.15rem 0 0;
+    font-size: 0.9rem;
+    color: var(--color-primario);
   }
   .report-close {
-    border: none;
-    background: none;
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(255 255 255 / 0.12);
+    border-radius: 999px;
+    background: rgb(255 255 255 / 0.05);
     color: var(--color-primario);
-    font-size: 1.4rem;
+    font-size: 1rem;
     cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .report-close:hover {
+    border-color: var(--color-warning);
+    color: var(--color-warning);
   }
 
   .report-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 1.2rem;
     padding: 1.5rem;
-    max-height: calc(90vh - 4rem);
+    max-height: calc(90vh - 5rem);
     overflow: auto;
   }
 
   .report-form {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.75rem;
   }
   .report-form h3 {
-    font-size: 0.95rem;
-    margin-top: 0.5rem;
+    margin: 0.6rem 0 0;
+    padding-top: 0.7rem;
+    border-top: 1px solid rgb(255 255 255 / 0.08);
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
     color: var(--color-warning);
   }
   .report-form label {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
-    font-size: 0.85rem;
+    gap: 0.35rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-muted);
   }
   .report-form input,
   .report-form textarea {
-    padding: 0.45rem 0.6rem;
-    border: 1px solid var(--color-muted);
-    border-radius: 0.5rem;
-    background: rgb(0 0 0 / 0.25);
+    padding: 0.55rem 0.75rem;
+    border: 1px solid rgb(255 255 255 / 0.1);
+    border-radius: 0.6rem;
+    background: rgb(255 255 255 / 0.04);
     color: var(--color-primario);
     font-size: 0.95rem;
+    letter-spacing: 0;
+    text-transform: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .report-form input::placeholder,
+  .report-form textarea::placeholder {
+    color: var(--color-muted);
+    opacity: 0.55;
+  }
+  .report-form input:focus,
+  .report-form textarea:focus {
+    outline: none;
+    border-color: var(--color-warning);
+    background: rgb(255 255 255 / 0.06);
   }
   .report-form textarea {
     resize: vertical;
     min-height: 5rem;
+    line-height: 1.45;
   }
 
   .km-row {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.4rem;
   }
   .km-row span {
     width: 3.2rem;
-    font-size: 0.85rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-muted);
   }
   .km-row input {
     flex: 1;
+    min-width: 0;
   }
   .km-add {
     align-self: flex-start;
-    padding: 0.3rem 0.8rem;
-    border: 1px dashed var(--color-muted);
-    border-radius: 0.5rem;
+    padding: 0.35rem 0.85rem;
+    border: 1px dashed rgb(255 255 255 / 0.18);
+    border-radius: 999px;
     background: none;
     color: var(--color-primario);
-    font-size: 0.85rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
     cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .km-add:hover {
+    border-color: var(--color-warning);
+    color: var(--color-warning);
   }
 
   .report-preview {
@@ -128,28 +186,30 @@ styles.replaceSync(`
   .report-preview pre {
     flex: 1;
     margin: 0;
-    padding: 1rem;
-    border: 1px solid var(--color-muted);
-    border-radius: 0.5rem;
-    background: rgb(0 0 0 / 0.35);
-    font-size: 0.8rem;
-    line-height: 1.45;
+    padding: 1.1rem;
+    border: 1px solid rgb(255 255 255 / 0.09);
+    border-radius: 0.8rem;
+    background: rgb(0 0 0 / 0.3);
+    font-size: 0.78rem;
+    line-height: 1.5;
     overflow: auto;
     white-space: pre;
   }
   .report-copy {
     align-self: flex-end;
-    padding: 0.25rem 0.4rem;
-    border: none;
+    padding: 0.3rem 0.85rem;
+    border: 1px solid rgb(255 255 255 / 0.12);
+    border-radius: 999px;
     background: none;
     color: var(--color-muted);
-    font-size: 0.78rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
     cursor: pointer;
-    opacity: 0.75;
-    transition: opacity 0.2s, color 0.2s;
+    transition: border-color 0.2s, color 0.2s;
   }
   .report-copy:hover {
-    opacity: 1;
+    border-color: var(--color-success);
     color: var(--color-success);
   }
 
@@ -232,7 +292,10 @@ export function setupReportModal(dato) {
   dialog.className = "report-dialog";
   dialog.innerHTML = `
     <header class="report-header">
-      <h2>📊 Reporte de entrenamiento</h2>
+      <div>
+        <h2>📊 Reporte de entrenamiento</h2>
+        <p class="report-sub">${dato.fecha} · ${dato.tipo}</p>
+      </div>
       <button type="button" class="report-close" aria-label="Cerrar">✕</button>
     </header>
     <div class="report-grid">
