@@ -106,7 +106,7 @@ body {
     border: 1px solid oklch(65.765% 0.21684 142.907 / 0.6);
 
     &:hover {
-      border-color: rgb(255 255 255 / 0.22);
+      border-color: oklch(52.742% 0.17172 143.015 / 0.529);
     }
   }
 
