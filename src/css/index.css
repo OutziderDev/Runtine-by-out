@@ -102,6 +102,14 @@ body {
     opacity: 0.85;
   }
 
+  & > .day-card:not(.disabled):not(.full) {
+    border: 1px solid oklch(65.765% 0.21684 142.907 / 0.6);
+
+    &:hover {
+      border-color: rgb(255 255 255 / 0.22);
+    }
+  }
+
   & > .current {
     border-color: var(--color-warning) !important;
     background: var(--color-warning-muted);
