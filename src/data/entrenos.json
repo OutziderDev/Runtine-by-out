@@ -1,138 +1,93 @@
 [
   {
     "id": "01",
-    "fecha": "01 de agosto",
+    "fecha": "01 de septiembre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Movilidad e hidratación."
+    "notas": "Descanso total. Prepararse para retomar mañana."
   },
   {
     "id": "02",
-    "fecha": "02 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Movilidad e hidratación."
+    "fecha": "02 de septiembre",
+    "tipo": "Rodaje suave",
+    "distancia": "3 km",
+    "ritmo": "7:50 - 8:10",
+    "objetivo": ["Retomar ritmo", "Evaluar sensaciones", "Cero sobreesfuerzo"],
+    "notas": "Debe sentirse cómodo. Respiración relajada. No acelerar aunque te sientas bien."
   },
   {
     "id": "03",
-    "fecha": "03 de agosto",
-    "tipo": "Rodaje suave",
-    "distancia": "3 km",
-    "ritmo": "8:20 - 8:40",
-    "objetivo": ["Retomar la carrera", "Respiración nasal", "Sin fatiga"],
-    "notas": "No acelerar aunque te sientas bien."
+    "fecha": "03 de septiembre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso y recuperación."
   },
   {
     "id": "04",
-    "fecha": "04 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Movilidad e hidratación."
+    "fecha": "04 de septiembre",
+    "tipo": "Rodaje aeróbico",
+    "distancia": "3.5 km",
+    "ritmo": "7:50 - 8:10",
+    "objetivo": ["Aumentar ligeramente volumen", "Mantener resistencia aeróbica"],
+    "notas": "Continuo y relajado. No buscar velocidad."
   },
   {
     "id": "05",
-    "fecha": "05 de agosto",
-    "tipo": "Rodaje constante",
-    "distancia": "3.5 km",
-    "ritmo": "8:10 - 8:25",
-    "objetivo": ["Volver a sentir continuidad"],
-    "notas": "Todo en zona aeróbica."
+    "fecha": "05 de septiembre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
   },
   {
     "id": "06",
-    "fecha": "06 de agosto",
+    "fecha": "06 de septiembre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Reposo."
+    "notas": "Descanso total."
   },
   {
     "id": "07",
-    "fecha": "07 de agosto",
-    "tipo": "Long Run",
-    "distancia": "4 km",
-    "ritmo": "8:20 - 8:35",
-    "objetivo": ["Acumular kilómetros"],
-    "notas": "Muy cómodo."
+    "fecha": "07 de septiembre",
+    "tipo": "Rodaje suave",
+    "distancia": "3.5 km",
+    "ritmo": "7:45 - 8:05",
+    "objetivo": ["Consolidar 3.5 km", "Mejorar comodidad"],
+    "notas": "Mantener ritmo estable. Si aparece molestia física, reducir o terminar."
   },
   {
     "id": "08",
-    "fecha": "08 de agosto",
+    "fecha": "08 de septiembre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso total."
+    "notas": "Recuperación."
   },
   {
     "id": "09",
-    "fecha": "09 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Dormir bien."
+    "fecha": "09 de septiembre",
+    "tipo": "Rodaje progresivo suave",
+    "distancia": "4 km",
+    "ritmo_km": [
+      { "km": 1, "ritmo": "8:10" },
+      { "km": 2, "ritmo": "8:00" },
+      { "km": 3, "ritmo": "7:50" },
+      { "km": 4, "ritmo": "7:45" }
+    ],
+    "objetivo": ["Introducir progresión", "Mantener control", "Mejorar resistencia"],
+    "notas": "La progresión debe ser gradual. Sin sprint final."
   },
   {
     "id": "10",
-    "fecha": "10 de agosto",
-    "tipo": "Ritmo progresivo",
-    "distancia": "4 km",
-    "ritmo_km": [
-      { "km": 1, "ritmo": "8:20" },
-      { "km": 2, "ritmo": "8:10" },
-      { "km": 3, "ritmo": "8:00" },
-      { "km": 4, "ritmo": "7:50" }
-    ],
-    "objetivo": ["Volver a controlar ritmos"],
-    "notas": "Sin sprint."
-  },
-  {
-    "id": "11",
-    "fecha": "11 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Reposo."
-  },
-  {
-    "id": "12",
-    "fecha": "12 de agosto",
-    "tipo": "Rodaje constante",
-    "distancia": "4 km",
-    "ritmo": "8:00 - 8:10",
-    "objetivo": ["Economía de carrera"],
-    "notas": "Respiración nasal."
-  },
-  {
-    "id": "13",
-    "fecha": "13 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Movilidad."
-  },
-  {
-    "id": "14",
-    "fecha": "14 de agosto",
-    "tipo": "Long Run",
-    "distancia": "4.8 km",
-    "ritmo": "8:10 - 8:25",
-    "objetivo": ["Acumular volumen"],
-    "notas": "Sin mirar demasiado el reloj."
-  },
-  {
-    "id": "15",
-    "fecha": "15 de agosto",
+    "fecha": "10 de septiembre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
@@ -140,137 +95,136 @@
     "notas": "Descanso total."
   },
   {
-    "id": "16",
-    "fecha": "16 de agosto",
+    "id": "11",
+    "fecha": "11 de septiembre",
+    "tipo": "Rodaje aeróbico",
+    "distancia": "4 km",
+    "ritmo": "7:50 - 8:10",
+    "objetivo": ["Acumular kilómetros", "Consolidar resistencia"],
+    "notas": "Debe terminar con sensación de poder haber continuado."
+  },
+  {
+    "id": "12",
+    "fecha": "12 de septiembre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Hidratación."
+    "notas": "Descanso total."
+  },
+  {
+    "id": "13",
+    "fecha": "13 de septiembre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "14",
+    "fecha": "14 de septiembre",
+    "tipo": "Rodaje suave",
+    "distancia": "4 km",
+    "ritmo": "7:45 - 8:05",
+    "objetivo": ["Consolidar 4 km", "Mantener respiración aeróbica"],
+    "notas": "No perseguir el 7:45. Es un límite superior, no una obligación."
+  },
+  {
+    "id": "15",
+    "fecha": "15 de septiembre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Recuperación."
+  },
+  {
+    "id": "16",
+    "fecha": "16 de septiembre",
+    "tipo": "Rodaje progresivo",
+    "distancia": "4 km",
+    "ritmo_km": [
+      { "km": 1, "ritmo": "8:05" },
+      { "km": 2, "ritmo": "7:55" },
+      { "km": 3, "ritmo": "7:45" },
+      { "km": 4, "ritmo": "7:35" }
+    ],
+    "objetivo": ["Estimular velocidad", "Practicar control de ritmo", "Sin llegar al máximo"],
+    "notas": "El último km debe ser controlado. Si obliga a respirar con dificultad, mantener el ritmo anterior."
   },
   {
     "id": "17",
-    "fecha": "17 de agosto",
-    "tipo": "Ritmo progresivo",
+    "fecha": "17 de septiembre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "18",
+    "fecha": "18 de septiembre",
+    "tipo": "Mini long run",
+    "distancia": "4.5 km",
+    "ritmo": "8:00 - 8:20",
+    "objetivo": ["Aumentar volumen", "Preparar distancia de 5 km", "Resistencia aeróbica"],
+    "notas": "Prioridad absoluta al tiempo continuo. No intentar convertirlo en entrenamiento rápido."
+  },
+  {
+    "id": "19",
+    "fecha": "19 de septiembre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso y recuperación."
+  },
+  {
+    "id": "20",
+    "fecha": "20 de septiembre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "21",
+    "fecha": "21 de septiembre",
+    "tipo": "Rodaje de consolidación",
+    "distancia": "4 km",
+    "ritmo": "7:45 - 8:05",
+    "objetivo": ["Consolidar volumen", "Mantener eficiencia aeróbica"],
+    "notas": "Después del mini long run, volver a una distancia controlada."
+  },
+  {
+    "id": "22",
+    "fecha": "22 de septiembre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Recuperación."
+  },
+  {
+    "id": "23",
+    "fecha": "23 de septiembre",
+    "tipo": "Rodaje progresivo",
     "distancia": "4.5 km",
     "ritmo_km": [
       { "km": 1, "ritmo": "8:10" },
       { "km": 2, "ritmo": "8:00" },
-      { "km": 3, "ritmo": "7:55" },
-      { "km": 4, "ritmo": "7:45" },
-      { "km": 4.5, "ritmo": "7:40" }
+      { "km": 3, "ritmo": "7:50" },
+      { "km": 4, "ritmo": "7:40" },
+      { "km": 4.5, "ritmo": "7:35" }
     ],
-    "objetivo": ["Recordar ritmo objetivo"],
-    "notas": "Siempre cómodo."
-  },
-  {
-    "id": "18",
-    "fecha": "18 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Reposo."
-  },
-  {
-    "id": "19",
-    "fecha": "19 de agosto",
-    "tipo": "Rodaje constante",
-    "distancia": "4.5 km",
-    "ritmo": "7:55 - 8:05",
-    "objetivo": ["Mantener ritmo uniforme"],
-    "notas": "Sin fatiga."
-  },
-  {
-    "id": "20",
-    "fecha": "20 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Movilidad."
-  },
-  {
-    "id": "21",
-    "fecha": "21 de agosto",
-    "tipo": "Long Run",
-    "distancia": "5.5 km",
-    "ritmo": "8:00 - 8:15",
-    "objetivo": ["Primer rodaje largo"],
-    "notas": "Sin forzar."
-  },
-  {
-    "id": "22",
-    "fecha": "22 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Descanso."
-  },
-  {
-    "id": "23",
-    "fecha": "23 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Dormir bien."
+    "objetivo": ["Acercarse al ritmo objetivo", "Mejorar control", "Aumentar confianza"],
+    "notas": "No buscar sprint. Si aparece fatiga importante, mantener el ritmo del km anterior."
   },
   {
     "id": "24",
-    "fecha": "24 de agosto",
-    "tipo": "Ritmo progresivo",
-    "distancia": "5 km",
-    "ritmo_km": [
-      { "km": 1, "ritmo": "8:05" },
-      { "km": 2, "ritmo": "7:58" },
-      { "km": 3, "ritmo": "7:52" },
-      { "km": 4, "ritmo": "7:45" },
-      { "km": 5, "ritmo": "7:40" }
-    ],
-    "objetivo": ["Preparar los 5 km"],
-    "notas": "Sin sprint."
-  },
-  {
-    "id": "25",
-    "fecha": "25 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Reposo."
-  },
-  {
-    "id": "26",
-    "fecha": "26 de agosto",
-    "tipo": "Rodaje constante",
-    "distancia": "5 km",
-    "ritmo": "7:50 - 8:00",
-    "objetivo": ["Consolidar resistencia"],
-    "notas": "Todo relajado."
-  },
-  {
-    "id": "27",
-    "fecha": "27 de agosto",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Descanso."
-  },
-  {
-    "id": "28",
-    "fecha": "28 de agosto",
-    "tipo": "Long Run",
-    "distancia": "6 km",
-    "ritmo": "7:55 - 8:10",
-    "objetivo": ["Construir fondo para septiembre"],
-    "notas": "Si aparece dolor >3/10, detener."
-  },
-  {
-    "id": "29",
-    "fecha": "29 de agosto",
+    "fecha": "24 de septiembre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
@@ -278,21 +232,63 @@
     "notas": "Descanso total."
   },
   {
-    "id": "30",
-    "fecha": "30 de agosto",
+    "id": "25",
+    "fecha": "25 de septiembre",
+    "tipo": "Long run controlado",
+    "distancia": "5 km",
+    "ritmo": "7:55 - 8:20",
+    "objetivo": ["Completar 5 km", "Construir resistencia", "Mantener control"],
+    "notas": "Primer objetivo de 5 km continuos del mes. El éxito es terminar cómodo, no hacerlo rápido."
+  },
+  {
+    "id": "26",
+    "fecha": "26 de septiembre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Preparar última sesión."
+    "notas": "Descanso total."
   },
   {
-    "id": "31",
-    "fecha": "31 de agosto",
-    "tipo": "Evaluación",
+    "id": "27",
+    "fecha": "27 de septiembre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso total."
+  },
+  {
+    "id": "28",
+    "fecha": "28 de septiembre",
+    "tipo": "Rodaje aeróbico",
+    "distancia": "4 km",
+    "ritmo": "7:40 - 8:00",
+    "objetivo": ["Recuperar después de 5 km", "Mantener resistencia", "Practicar ritmo cómodo"],
+    "notas": "No forzar el ritmo. Debe sentirse claramente más fácil que el entrenamiento anterior."
+  },
+  {
+    "id": "29",
+    "fecha": "29 de septiembre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Recuperación."
+  },
+  {
+    "id": "30",
+    "fecha": "30 de septiembre",
+    "tipo": "5K controlado",
     "distancia": "5 km",
-    "ritmo": "7:45 - 7:50",
-    "objetivo": ["Completar 5 km continuos", "Respiración controlada", "Llegar con margen"],
-    "notas": "No buscar récord; comprobar que vuelves a tu nivel."
+    "ritmo_km": [
+      { "km": 1, "ritmo": "8:05" },
+      { "km": 2, "ritmo": "7:55" },
+      { "km": 3, "ritmo": "7:50" },
+      { "km": 4, "ritmo": "7:45" },
+      { "km": 5, "ritmo": "7:40" }
+    ],
+    "objetivo": ["Completar 5 km", "Evaluar progreso", "Acercarse a 7:45 sostenible"],
+    "notas": "Debe ser progresivo y controlado. Si los 5 km salen cómodos, el mes habrá cumplido su objetivo."
   }
 ]
