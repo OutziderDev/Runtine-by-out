@@ -97,6 +97,7 @@ body {
   }
 
   & > .past {
+    pointer-events: none;
     border-color: oklch(75% 0.1 220 / 0.35);
     background: var(--color-past-muted);
     opacity: 0.85;
