@@ -1,294 +1,410 @@
 [
   {
     "id": "01",
-    "fecha": "01 de septiembre",
+    "fecha": "1 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso total. Prepararse para retomar mañana."
+    "notas": "Inicio del mes. Recuperación."
   },
   {
     "id": "02",
-    "fecha": "02 de septiembre",
-    "tipo": "Rodaje suave",
-    "distancia": "3 km",
-    "ritmo": "7:50 - 8:10",
-    "objetivo": ["Retomar ritmo", "Evaluar sensaciones", "Cero sobreesfuerzo"],
-    "notas": "Debe sentirse cómodo. Respiración relajada. No acelerar aunque te sientas bien."
+    "fecha": "2 de octubre",
+    "tipo": "Long Run controlado",
+    "distancia": "4.5 km",
+    "ritmo": "7:45–8:00 /km",
+    "objetivo": [
+      "Completar 4.5 km de forma continua",
+      "Mantener esfuerzo aeróbico cómodo",
+      "Priorizar duración sobre velocidad"
+    ],
+    "notas": "Sesión principal de inicio de octubre. No buscar repetir el 7:31/km del 28/09. La meta es terminar sintiendo que podrías haber continuado."
   },
   {
     "id": "03",
-    "fecha": "03 de septiembre",
+    "fecha": "3 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso y recuperación."
+    "notas": "Descanso obligatorio."
   },
   {
     "id": "04",
-    "fecha": "04 de septiembre",
-    "tipo": "Rodaje aeróbico",
-    "distancia": "3.5 km",
-    "ritmo": "7:50 - 8:10",
-    "objetivo": ["Aumentar ligeramente volumen", "Mantener resistencia aeróbica"],
-    "notas": "Continuo y relajado. No buscar velocidad."
+    "fecha": "4 de octubre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso obligatorio."
   },
   {
     "id": "05",
-    "fecha": "05 de septiembre",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Descanso total."
+    "fecha": "5 de octubre",
+    "tipo": "Entrenamiento normal",
+    "distancia": "3.5 km",
+    "ritmo": "7:50–8:05 /km",
+    "objetivo": [
+      "Recuperar después del long run",
+      "Mantener ritmo cómodo",
+      "Correr sin perseguir velocidad"
+    ],
+    "notas": "Sesión aeróbica relajada. Si las piernas siguen pesadas, mantener el ritmo más lento."
   },
   {
     "id": "06",
-    "fecha": "06 de septiembre",
+    "fecha": "6 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso total."
+    "notas": "Descanso."
   },
   {
     "id": "07",
-    "fecha": "07 de septiembre",
-    "tipo": "Rodaje suave",
-    "distancia": "3.5 km",
-    "ritmo": "7:45 - 8:05",
-    "objetivo": ["Consolidar 3.5 km", "Mejorar comodidad"],
-    "notas": "Mantener ritmo estable. Si aparece molestia física, reducir o terminar."
+    "fecha": "7 de octubre",
+    "tipo": "Speed Run controlado",
+    "distancia": "4 km",
+    "ritmo_km": [
+      {
+        "km": 1,
+        "ritmo": "8:00"
+      },
+      {
+        "km": 2,
+        "ritmo": "7:45"
+      },
+      {
+        "km": 3,
+        "ritmo": "7:30"
+      },
+      {
+        "km": 4,
+        "ritmo": "7:15–7:20"
+      }
+    ],
+    "objetivo": ["Practicar progresión", "Terminar rápido sin sprint", "Controlar la aceleración"],
+    "notas": "La última parte debe sentirse fuerte pero controlada. No convertirlo en un 4 km a máxima intensidad."
   },
   {
     "id": "08",
-    "fecha": "08 de septiembre",
+    "fecha": "8 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Recuperación."
+    "notas": "Descanso."
   },
   {
     "id": "09",
-    "fecha": "09 de septiembre",
-    "tipo": "Rodaje progresivo suave",
-    "distancia": "4 km",
-    "ritmo_km": [
-      { "km": 1, "ritmo": "8:10" },
-      { "km": 2, "ritmo": "8:00" },
-      { "km": 3, "ritmo": "7:50" },
-      { "km": 4, "ritmo": "7:45" }
-    ],
-    "objetivo": ["Introducir progresión", "Mantener control", "Mejorar resistencia"],
-    "notas": "La progresión debe ser gradual. Sin sprint final."
+    "fecha": "9 de octubre",
+    "tipo": "Entrenamiento normal",
+    "distancia": "3.5 km",
+    "ritmo": "7:50–8:10 /km",
+    "objetivo": ["Recuperación activa", "Trabajo aeróbico cómodo"],
+    "notas": "Debe sentirse claramente más fácil que la sesión anterior."
   },
   {
     "id": "10",
-    "fecha": "10 de septiembre",
+    "fecha": "10 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso total."
+    "notas": "Descanso obligatorio."
   },
   {
     "id": "11",
-    "fecha": "11 de septiembre",
-    "tipo": "Rodaje aeróbico",
-    "distancia": "4 km",
-    "ritmo": "7:50 - 8:10",
-    "objetivo": ["Acumular kilómetros", "Consolidar resistencia"],
-    "notas": "Debe terminar con sensación de poder haber continuado."
+    "fecha": "11 de octubre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso obligatorio."
   },
   {
     "id": "12",
-    "fecha": "12 de septiembre",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Descanso total."
+    "fecha": "12 de octubre",
+    "tipo": "Entrenamiento normal",
+    "distancia": "4 km",
+    "ritmo": "7:45–8:00 /km",
+    "objetivo": [
+      "Consolidar 4 km cómodos",
+      "Mantener técnica estable",
+      "No acelerar innecesariamente"
+    ],
+    "notas": "Sesión de construcción aeróbica. El ritmo debe sentirse sostenible."
   },
   {
     "id": "13",
-    "fecha": "13 de septiembre",
+    "fecha": "13 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso total."
+    "notas": "Descanso."
   },
   {
     "id": "14",
-    "fecha": "14 de septiembre",
-    "tipo": "Rodaje suave",
-    "distancia": "4 km",
-    "ritmo": "7:45 - 8:05",
-    "objetivo": ["Consolidar 4 km", "Mantener respiración aeróbica"],
-    "notas": "No perseguir el 7:45. Es un límite superior, no una obligación."
+    "fecha": "14 de octubre",
+    "tipo": "Speed Run progresivo",
+    "distancia": "4.5 km",
+    "ritmo_km": [
+      {
+        "km": 1,
+        "ritmo": "8:00"
+      },
+      {
+        "km": 2,
+        "ritmo": "7:50"
+      },
+      {
+        "km": 3,
+        "ritmo": "7:40"
+      },
+      {
+        "km": 4,
+        "ritmo": "7:25"
+      },
+      {
+        "km": 5,
+        "ritmo": "7:15"
+      }
+    ],
+    "objetivo": [
+      "Mejorar control del ritmo",
+      "Acercarse progresivamente a 7:15/km",
+      "Evitar cambios bruscos de velocidad"
+    ],
+    "notas": "El quinto km es solo de referencia: si haces 4.5 km, termina alrededor de 7:20–7:15 sin sprintar."
   },
   {
     "id": "15",
-    "fecha": "15 de septiembre",
+    "fecha": "15 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Recuperación."
+    "notas": "Descanso."
   },
   {
     "id": "16",
-    "fecha": "16 de septiembre",
-    "tipo": "Rodaje progresivo",
-    "distancia": "4 km",
-    "ritmo_km": [
-      { "km": 1, "ritmo": "8:05" },
-      { "km": 2, "ritmo": "7:55" },
-      { "km": 3, "ritmo": "7:45" },
-      { "km": 4, "ritmo": "7:35" }
-    ],
-    "objetivo": ["Estimular velocidad", "Practicar control de ritmo", "Sin llegar al máximo"],
-    "notas": "El último km debe ser controlado. Si obliga a respirar con dificultad, mantener el ritmo anterior."
+    "fecha": "16 de octubre",
+    "tipo": "Entrenamiento normal",
+    "distancia": "3.5 km",
+    "ritmo": "7:55–8:10 /km",
+    "objetivo": ["Recuperación", "Mantener frecuencia de entrenamiento"],
+    "notas": "Sesión deliberadamente tranquila después del progresivo."
   },
   {
     "id": "17",
-    "fecha": "17 de septiembre",
+    "fecha": "17 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso total."
+    "notas": "Descanso obligatorio."
   },
   {
     "id": "18",
-    "fecha": "18 de septiembre",
-    "tipo": "Mini long run",
-    "distancia": "4.5 km",
-    "ritmo": "8:00 - 8:20",
-    "objetivo": ["Aumentar volumen", "Preparar distancia de 5 km", "Resistencia aeróbica"],
-    "notas": "Prioridad absoluta al tiempo continuo. No intentar convertirlo en entrenamiento rápido."
+    "fecha": "18 de octubre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso obligatorio."
   },
   {
     "id": "19",
-    "fecha": "19 de septiembre",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Descanso y recuperación."
+    "fecha": "19 de octubre",
+    "tipo": "Long Run",
+    "distancia": "5 km",
+    "ritmo": "7:50–8:05 /km",
+    "objetivo": [
+      "Completar los primeros 5 km del mes de forma controlada",
+      "Priorizar continuidad",
+      "Finalizar sin agotamiento"
+    ],
+    "notas": "Entrenamiento clave del mes. El objetivo es construir la capacidad de mantener 5 km."
   },
   {
     "id": "20",
-    "fecha": "20 de septiembre",
+    "fecha": "20 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso total."
+    "notas": "Descanso."
   },
   {
     "id": "21",
-    "fecha": "21 de septiembre",
-    "tipo": "Rodaje de consolidación",
-    "distancia": "4 km",
-    "ritmo": "7:45 - 8:05",
-    "objetivo": ["Consolidar volumen", "Mantener eficiencia aeróbica"],
-    "notas": "Después del mini long run, volver a una distancia controlada."
+    "fecha": "21 de octubre",
+    "tipo": "Entrenamiento normal",
+    "distancia": "3.5 km",
+    "ritmo": "7:50–8:05 /km",
+    "objetivo": ["Recuperación después del long run", "Mantener ritmo aeróbico"],
+    "notas": "No intentar compensar el ritmo del long run. Sesión cómoda."
   },
   {
     "id": "22",
-    "fecha": "22 de septiembre",
+    "fecha": "22 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Recuperación."
+    "notas": "Descanso."
   },
   {
     "id": "23",
-    "fecha": "23 de septiembre",
-    "tipo": "Rodaje progresivo",
-    "distancia": "4.5 km",
+    "fecha": "23 de octubre",
+    "tipo": "Speed Run",
+    "distancia": "4 km",
     "ritmo_km": [
-      { "km": 1, "ritmo": "8:10" },
-      { "km": 2, "ritmo": "8:00" },
-      { "km": 3, "ritmo": "7:50" },
-      { "km": 4, "ritmo": "7:40" },
-      { "km": 4.5, "ritmo": "7:35" }
+      {
+        "km": 1,
+        "ritmo": "7:55"
+      },
+      {
+        "km": 2,
+        "ritmo": "7:35"
+      },
+      {
+        "km": 3,
+        "ritmo": "7:20"
+      },
+      {
+        "km": 4,
+        "ritmo": "7:05–7:15"
+      }
     ],
-    "objetivo": ["Acercarse al ritmo objetivo", "Mejorar control", "Aumentar confianza"],
-    "notas": "No buscar sprint. Si aparece fatiga importante, mantener el ritmo del km anterior."
+    "objetivo": [
+      "Trabajar velocidad controlada",
+      "Acostumbrarse a ritmos inferiores a 7:30",
+      "Terminar fuerte pero sin sprint"
+    ],
+    "notas": "Debe ser una sesión de calidad, no una prueba máxima. Si el km 4 exige demasiado, mantener 7:20–7:30."
   },
   {
     "id": "24",
-    "fecha": "24 de septiembre",
+    "fecha": "24 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso total."
+    "notas": "Descanso obligatorio."
   },
   {
     "id": "25",
-    "fecha": "25 de septiembre",
-    "tipo": "Long run controlado",
-    "distancia": "5 km",
-    "ritmo": "7:55 - 8:20",
-    "objetivo": ["Completar 5 km", "Construir resistencia", "Mantener control"],
-    "notas": "Primer objetivo de 5 km continuos del mes. El éxito es terminar cómodo, no hacerlo rápido."
+    "fecha": "25 de octubre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso obligatorio."
   },
   {
     "id": "26",
-    "fecha": "26 de septiembre",
-    "tipo": "Descanso",
-    "distancia": "0",
-    "ritmo": "0",
-    "objetivo": [],
-    "notas": "Descanso total."
+    "fecha": "26 de octubre",
+    "tipo": "Long Run progresivo",
+    "distancia": "5.5 km",
+    "ritmo_km": [
+      {
+        "km": 1,
+        "ritmo": "8:05"
+      },
+      {
+        "km": 2,
+        "ritmo": "7:55"
+      },
+      {
+        "km": 3,
+        "ritmo": "7:50"
+      },
+      {
+        "km": 4,
+        "ritmo": "7:45"
+      },
+      {
+        "km": 5,
+        "ritmo": "7:40"
+      },
+      {
+        "km": 6,
+        "ritmo": "7:35"
+      }
+    ],
+    "objetivo": [
+      "Aumentar resistencia",
+      "Mantener control durante más de 5 km",
+      "Practicar final progresivo"
+    ],
+    "notas": "Si 5.5 km ya se sienten suficientes, no es necesario completar 6 km. El volumen es prioritario."
   },
   {
     "id": "27",
-    "fecha": "27 de septiembre",
+    "fecha": "27 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descanso total."
+    "notas": "Descanso."
   },
   {
     "id": "28",
-    "fecha": "28 de septiembre",
-    "tipo": "Rodaje aeróbico",
-    "distancia": "4 km",
-    "ritmo": "7:40 - 8:00",
-    "objetivo": ["Recuperar después de 5 km", "Mantener resistencia", "Practicar ritmo cómodo"],
-    "notas": "No forzar el ritmo. Debe sentirse claramente más fácil que el entrenamiento anterior."
+    "fecha": "28 de octubre",
+    "tipo": "Entrenamiento normal",
+    "distancia": "3.5 km",
+    "ritmo": "7:55–8:10 /km",
+    "objetivo": ["Recuperación", "Preparar las piernas para el cierre del mes"],
+    "notas": "Sesión muy controlada. No buscar velocidad."
   },
   {
     "id": "29",
-    "fecha": "29 de septiembre",
+    "fecha": "29 de octubre",
     "tipo": "Descanso",
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Recuperación."
+    "notas": "Descanso."
   },
   {
     "id": "30",
-    "fecha": "30 de septiembre",
-    "tipo": "5K controlado",
-    "distancia": "5 km",
+    "fecha": "30 de octubre",
+    "tipo": "Speed Run progresivo",
+    "distancia": "4 km",
     "ritmo_km": [
-      { "km": 1, "ritmo": "8:05" },
-      { "km": 2, "ritmo": "7:55" },
-      { "km": 3, "ritmo": "7:50" },
-      { "km": 4, "ritmo": "7:45" },
-      { "km": 5, "ritmo": "7:40" }
+      {
+        "km": 1,
+        "ritmo": "7:55"
+      },
+      {
+        "km": 2,
+        "ritmo": "7:40"
+      },
+      {
+        "km": 3,
+        "ritmo": "7:25"
+      },
+      {
+        "km": 4,
+        "ritmo": "7:10"
+      }
     ],
-    "objetivo": ["Completar 5 km", "Evaluar progreso", "Acercarse a 7:45 sostenible"],
-    "notas": "Debe ser progresivo y controlado. Si los 5 km salen cómodos, el mes habrá cumplido su objetivo."
+    "objetivo": [
+      "Evaluar control de ritmo",
+      "Cerrar el bloque de velocidad",
+      "No llegar al agotamiento"
+    ],
+    "notas": "Última sesión rápida del mes. Si hay fatiga acumulada, convertirla en entrenamiento normal."
+  },
+  {
+    "id": "31",
+    "fecha": "31 de octubre",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descanso obligatorio. Cierre del mes."
   }
 ]
